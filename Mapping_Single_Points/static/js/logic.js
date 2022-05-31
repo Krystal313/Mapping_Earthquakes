@@ -12,10 +12,10 @@ let map = L.map('mapid').setView([40.7, -94.5], 4);
 //    radius: 100
 // }).addTo(map);
 
-// Create a light-yellow circle with black lines indicating a 300-meter radius of Central Los Angeles on a dark map.
+// Create a light-yellow circle with red lines indicating a 300-meter radius of Central Los Angeles on a dark map.
 L.circleMarker([34.0522, -118.2437], {
     radius: 300,
-    color: "black",
+    color: "red",
     fillColor: '#ffffa1'
     }).addTo(map);
 
